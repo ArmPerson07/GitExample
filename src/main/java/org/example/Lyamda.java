@@ -5,6 +5,6 @@ public class Lyamda {
 
     }
 }
-interface printable{
+interface Printable{
     public void print(int a[]);
 }
