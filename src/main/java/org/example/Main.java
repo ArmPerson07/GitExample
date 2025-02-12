@@ -2,7 +2,7 @@ package org.example;
 
 public class Main {
    private String name="Hello";
-
+   private int age=22;
 
 
     public static void main(String[] args) {
