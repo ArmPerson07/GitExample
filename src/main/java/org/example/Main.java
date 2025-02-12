@@ -17,4 +17,11 @@ public class Main {
 
 
     }
+
+    public boolean calculate(int a){
+        if (a%2==0){
+            return true;
+        }
+        return true;
+    }
 }
