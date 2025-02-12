@@ -1,6 +1,10 @@
 package org.example;
 
 public class Main {
+   private String name;
+
+
+
     public static void main(String[] args) {
        int a[]=new int[]{1,3,3,45,54,66};
         int max=0;
