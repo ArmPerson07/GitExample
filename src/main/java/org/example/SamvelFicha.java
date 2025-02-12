@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Objects;
+
 public class SamvelFicha {
     private Integer age;
     private String name;
@@ -42,5 +44,18 @@ public class SamvelFicha {
                 ", name='" + name + '\'' +
                 ", weight=" + weight +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object object) {
+        if (this == object) return true;
+        if (object == null || getClass() != object.getClass()) return false;
+        SamvelFicha that = (SamvelFicha) object;
+        return Objects.equals(age, that.age) && Objects.equals(name, that.name) && Objects.equals(weight, that.weight);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(age, name, weight);
     }
 }
