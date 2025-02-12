@@ -1,7 +1,7 @@
 package org.example;
 
 public class Main {
-   private String name;
+   private String name="Hello";
 
 
 
