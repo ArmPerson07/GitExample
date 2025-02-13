@@ -15,6 +15,7 @@ public class Main {
         }
         System.out.println(max);
         System.out.printf("Макс");
+        System.out.printf("Макс"+" "max);
 
 
     }
